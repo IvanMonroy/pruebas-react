@@ -1,0 +1,157 @@
+.body-flex {
+    width: 100%;
+    background-color: greenyellow;
+}
+
+.container-flex-global {
+    border: 2px solid white;
+    padding: 10px;
+    display: flex;
+    /* flex-direction: direccion de los elementos en el contenedor */
+    flex-direction: row;
+    /* flex-weap: me permite ordenar los elementos de mi div en varias filas  */
+    flex-wrap: wrap;
+    /* flex-flow: Me permite combinar ambas(direction y wrap) */
+    flex-flow: row wrap;
+    /* justify-content: Me permite ordenar mis eleemtnos dentro del contenedor */
+    justify-content: flex-start;
+    /* align-items: me permite ordenar mis elementos horizontalmente si el contenedor tiene una altura especifica */
+    align-items: center;
+    /* height: 500px; */
+}
+
+.container-flex {
+    border: 2px solid black;
+    background-color: dimgray;
+    color: white;
+    width: 220px;
+    /* height: 220px; */
+    line-height: 220px;
+    text-align: center;
+    margin: 5px;
+}
+
+.body-flex2 {
+    width: 100%;
+    background-color: seagreen;
+}
+
+.container-flex-global2 {
+    border: 2px solid white;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    /* align-content: me permite organizar mis elementos de manera horizontal en la página */
+    align-content: flex-start;
+    height: 500px;
+}
+
+.container-flex2 {
+    border: 2px solid black;
+    background-color: dimgray;
+    color: white;
+    width: 220px;
+    height: 220px;
+    line-height: 220px;
+    text-align: center;
+    margin: 5px;
+}
+
+.body-flex3 {
+    width: 100%;
+    background-color: powderblue;
+}
+
+.container-flex-global3 {
+    border: 2px solid white;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.container-flex3 {
+    border: 2px solid black;
+    color: white;
+    height: 220px;
+    line-height: 220px;
+    text-align: center;
+    margin: 5px;
+}
+
+.cf1 {
+    background-color: chocolate;
+    /* order: me permite asignar una posición dentro de mi contenedor flexible */
+    order: 3;
+    /* flex-grow: Permite asignar una prioridad al ancho del elemento  */
+    flex-grow: 1;
+    /* flex-basis: Permite asignar un width al elemento (se puede combinar con el grow y los demás props de flexbox)*/
+    flex-basis: 50%;
+}
+
+.cf2 {
+    background-color: teal;
+    order: 1;
+    flex-grow: 1;
+}
+
+.cf3 {
+    background-color: firebrick;
+    order: 2;
+    flex-grow: 1;
+}
+
+
+.body-flex4 {
+    width: 100%;
+    background-color: royalblue;
+    color: white;
+}
+
+.container-flex-global4 {
+    border: 2px solid white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    padding: 20px;
+
+}
+
+.container-flex4 {
+    border: 2px solid black;
+    color: white;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+}
+
+.cfw1 {
+    background-color: darkcyan;
+    flex-basis: 100%;
+}
+
+.cfw2 {
+    background-color: forestgreen;
+    flex-basis: 100%;
+}
+
+.cfw3 {
+    background-color: lawngreen;
+    flex-basis: calc(70% - 4px);
+    height: 400px;
+    line-height: 400px;
+}
+
+.cfw4 {
+    background-color: firebrick;
+    flex-basis: calc(30% - 4px);
+    height: 400px;
+    line-height: 400px;
+}
+
+.cfw5 {
+    background-color: olive;
+    flex-basis: 100%;
+}

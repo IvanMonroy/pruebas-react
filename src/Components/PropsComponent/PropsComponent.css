@@ -1,0 +1,27 @@
+.props-component{
+    width: calc(100% - 20px);
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    background-color: dodgerblue;
+    padding: 10px;
+}
+
+.props-component-header{
+    background-color: crimson;
+    color: white;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+}
+#img-col{
+    width: 20%;
+    float: left;
+    margin-right: 15px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
